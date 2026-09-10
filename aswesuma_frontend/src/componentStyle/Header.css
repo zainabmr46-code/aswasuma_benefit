@@ -1,0 +1,149 @@
+.top-bar{
+    background-color: #002244;
+    color:aliceblue;
+    padding: 10px 25px;
+    animation: slideDown 0.8s ease;
+}
+
+.top-bar hr{
+    border: none;
+    border-top: 2px solid rgba(255,255,255,0.5);
+    margin: 5px 0;
+}
+
+.top-bar-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar-left p{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.top-bar-right{
+   display: flex;
+   align-items: center;
+   gap: 6px;
+}
+
+
+
+.sap{
+    color: rgba(255, 255, 255,0.5);
+    font-size: 15px;
+}
+
+.hotline{
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+
+.logo-section{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-section img{
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+
+.logo-section h2{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.logo-section p{
+    margin: 2px 0;
+    font-size: 15px;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 8px
+}
+nav a{
+    color: #1a1a2a;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 14px;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+nav a:hover{
+    color: rgb(33, 57, 166);
+    background: rgba(37,57,166,0.1);
+}
+
+nav a:hover::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    background: rgb(0, 51, 102);
+    transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+
+    width: 100%;
+}
+
+.lan{
+    display: flex;
+    gap: 8px;
+}
+
+.lan button{
+    padding: 6px 14px;
+    border: 2px solid rgb( 0, 51, 102);
+    border-radius: 20px;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.lan button:hover{
+    background: rgb(0, 51, 102);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0px 4px 10px rgba(33,57,166,0.3);
+}
+
+
+@keyframes slideDown{
+    from{
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+

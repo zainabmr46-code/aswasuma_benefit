@@ -1,0 +1,53 @@
+.about-page {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.about-hero {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.about-image {
+    width: 100%;
+    max-height: 380px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px;
+}
+
+.about-title {
+    color: #002244;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.about-section {
+    margin-bottom: 35px;
+}
+
+.about-section h2 {
+    color: #002244;
+    margin-bottom: 15px;
+    border-left: 4px solid #003366;
+    padding-left: 12px;
+}
+
+.about-section p {
+    line-height: 1.8;
+    font-size: 15px;
+    color: #333;
+}
+
+.about-section ul {
+    line-height: 1.8;
+    font-size: 15px;
+    color: #333;
+    padding-left: 25px;
+}
+
+.about-section li {
+    margin-bottom: 10px;
+}
